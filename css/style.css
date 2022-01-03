@@ -52,6 +52,7 @@ h3 {
     font-family: Bebas;
     font-size: 3vw;
     text-shadow: -2px 3px 1px #000000;
+    letter-spacing: .12em;
 }
 
 h1,
@@ -62,21 +63,21 @@ p {
     padding: .2em;
 }
 
-.trilogy-img {
-    padding: .7em 0 .7em 0;
-}
-
-p,
-ul {
+p {
     font-size: 1.5em;
     font-family:'Teko', sans-serif;
+    letter-spacing: .11em;
     font-weight: 300;
     display: flex;
+    text-shadow: 1px 0px 15px #000000;
 }
 
+ul,
 li {
-    margin-left: 1.1em;
-    line-height: 1em;
+    font-size: 19px;
+    margin: 0 .1em .5em .7em;
+    font-family:'Saira Condensed', sans-serif;
+    color: rgb(198, 198, 198);
 }
 
 
@@ -99,6 +100,7 @@ li {
     font-family: Bank , sans-serif;
     font-weight: 700;
     font-size: 1.5vw;
+    letter-spacing: .10em;
     margin: 1em;
     border-radius: 5px;
     transition: 250ms;
@@ -112,6 +114,32 @@ li {
 .hero {
     text-align: center;
     padding: 0;
+}
+
+.three_cities {
+    font-size: 19px;
+    font-family:'Saira Condensed', sans-serif;
+    letter-spacing: .11em;
+    color: rgb(198, 198, 198);
+}
+
+.card_enhancement {
+    border: 1px solid #a48955;
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    margin-bottom: 1em;
+    height: 100%;
+    /* letter-spacing: .11em; */
+}
+
+.trilogy-img {
+    border-radius: 9px;
+    margin-bottom: .5em;
+}
+
+.card_enhancement_title {
+    font-size: 1.3em;
+    margin-left: .3em;
 }
 
 .LibertyCity {
